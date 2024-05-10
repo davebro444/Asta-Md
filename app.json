@@ -8,15 +8,15 @@
   
   "env": {
     "OWNER_NAME": {
-      "description": "Name for Bot Owner",    
+      "description": "Dave",    
       "value": "astapatch@3.0.0 Ser",
       "required" :true
     },   
      
     "WELCOME": {
-      "description": "put 'false' or 'true' to enable & disable WELCOME ",
+      "description": "put 'false' or 'true' ",
       "value": "true",
-      "required" :false
+      "required" :true
     },
      
     "GOODBYE": {
@@ -51,8 +51,8 @@
     },  
     "AUTO_SAVE_STATUS": {
       "description": " Auto save whatsapp status", 
-      "required" :false,   
-      "value": "false"
+      "required" :true,   
+      "value": "true"
     }, 
     "HEROKU_API_KEY": {
       "description": "Put Your Heroku Api Key Here",
@@ -61,13 +61,13 @@
     },   
     "HEROKU_APP_NAME": {
       "description": "Put Your Heroku App Name Here",
-      "value": "",
+      "value": "true",
     "required" :true
     }, 
     "WAPRESENCE": {
       "description": "Fill the value: 'unavailable'(for nothing) | 'available'(for alwaysonline) | 'composing'(for typing) | 'recording' | 'paused' ",
-      "required" :false,
-      "value": "unavailable"
+      "required" :true,
+      "value": "available"
     },
     "AUTO_READ_STATUS": {
       "description": "Fill the value true if you want bot view your Statuses.",
@@ -95,7 +95,7 @@
     },
     "OWNER_NUMBER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-      "value": "2348039607375"
+      "value": "0207771356"
     },
     "SESSION_ID": {
       "description": "put your SESSION_ID here.",
